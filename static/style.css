@@ -1,0 +1,35 @@
+body {
+    background-color: #0e1117;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4b4b;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background-color: #1c1f26;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie-name {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
